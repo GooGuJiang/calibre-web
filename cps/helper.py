@@ -117,15 +117,15 @@ def send_test_mail(kindle_mail, user_name):
 
 # Send registration email or password reset email, depending on parameter resend (False means welcome email)
 def send_registration_mail(e_mail, user_name, default_password, resend=False):
-    txt = "Hello %s!\r\n" % user_name
+    txt = "你好 %s!\r\n" % user_name
     if not resend:
-        txt += "Your new account at Calibre-Web has been created. Thanks for joining us!\r\n"
-    txt += "Please log in to your account using the following informations:\r\n"
-    txt += "User name: %s\r\n" % user_name
-    txt += "Password: %s\r\n" % default_password
-    txt += "Don't forget to change your password after first login.\r\n"
-    txt += "Sincerely\r\n\r\n"
-    txt += "Your Calibre-Web team"
+        txt += "您在 Calibre-Web 上的新帐户已创建。谢谢你加入我们！\r\n"
+    txt += "请使用以下信息登录：\r\n"
+    txt += "用户名: %s\r\n" % user_name
+    txt += "密码: %s\r\n" % default_password
+    txt += "第一次登录后千万不要忘记更改密码哦，免得造成损失的说。\r\n"
+    txt += "非常感谢ありがとうございます!\r\n\r\n"
+    txt += "你的 Calibre-Web 团队"
     WorkerThread.add(None, TaskEmail(
         subject=_(u'Get Started with Calibre-Web'),
         filepath=None,

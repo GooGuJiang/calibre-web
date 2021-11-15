@@ -5,57 +5,58 @@
 # FIRST AUTHOR dalin <dalin.lin@gmail.com>, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version:  Calibre-Web\n"
+"Project-Id-Version: Calibre-Web\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-10-30 16:37+0200\n"
-"PO-Revision-Date: 2020-09-27 22:18+0800\n"
+"PO-Revision-Date: 2021-11-15 11:45+0800\n"
 "Last-Translator: xlivevil <xlivevil@aliyun.com>\n"
 "Language: zh_CN\n"
 "Language-Team: zh_Hans_CN <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
+"X-Generator: Poedit 2.2\n"
 
 #: cps/about.py:34 cps/about.py:48 cps/about.py:64 cps/converter.py:31
 msgid "not installed"
-msgstr "未安装"
+msgstr "没有安装哦~"
 
 #: cps/about.py:46 cps/about.py:62
 msgid "installed"
-msgstr "已安装"
+msgstr "已经安装了惹"
 
 #: cps/about.py:117
 msgid "Statistics"
-msgstr "统计"
+msgstr "统计酱"
 
 #: cps/admin.py:144
 msgid "Server restarted, please reload page"
-msgstr "服务器已重启，请刷新页面"
+msgstr "服务器酱已重启，请刷新页面哦~"
 
 #: cps/admin.py:146
 msgid "Performing shutdown of server, please close window"
-msgstr "正在关闭服务器，请关闭窗口"
+msgstr "正在拔掉服务器电源¿，可以关闭浏览器的说"
 
 #: cps/admin.py:154
 msgid "Reconnect successful"
-msgstr "重新连接成功"
+msgstr "重新与服务器酱取得联系"
 
 #: cps/admin.py:157
 msgid "Unknown command"
-msgstr "未知命令"
+msgstr "蛤?(未知命令)"
 
 #: cps/admin.py:167 cps/editbooks.py:704 cps/editbooks.py:718
 #: cps/editbooks.py:859 cps/editbooks.py:861 cps/editbooks.py:888
 #: cps/editbooks.py:904 cps/updater.py:584 cps/uploader.py:93
 #: cps/uploader.py:103
 msgid "Unknown"
-msgstr "未知"
+msgstr "啥¿"
 
 #: cps/admin.py:188
 msgid "Admin page"
-msgstr "管理页"
+msgstr "设置页"
 
 #: cps/admin.py:207
 msgid "Basic Configuration"
@@ -76,7 +77,7 @@ msgstr "全部"
 
 #: cps/admin.py:343 cps/admin.py:1572
 msgid "User not found"
-msgstr "找不到用户"
+msgstr "这个用户被404了"
 
 #: cps/admin.py:357
 msgid "{} users deleted successfully"
@@ -89,19 +90,19 @@ msgstr "显示全部"
 
 #: cps/admin.py:400 cps/admin.py:406
 msgid "Malformed request"
-msgstr "格式错误的请求"
+msgstr "你这请求格式错误"
 
 #: cps/admin.py:418 cps/admin.py:1452
 msgid "Guest Name can't be changed"
-msgstr "访客名称无法更改"
+msgstr "访客名称改不了哦"
 
 #: cps/admin.py:430
 msgid "Guest can't have this role"
-msgstr "游客无法拥有此角色"
+msgstr "游客无法拥有此权限"
 
 #: cps/admin.py:442 cps/admin.py:1410
 msgid "No admin user remaining, can't remove admin role"
-msgstr "理员账户不存在，无法删除管理员角色"
+msgstr "理员账户被吃了，无法删除管理员角色"
 
 #: cps/admin.py:446 cps/admin.py:460
 msgid "Value has to be true or false"
@@ -440,7 +441,7 @@ msgstr "更新文件无法保存在临时目录中"
 
 #: cps/admin.py:1697
 msgid "Files could not be replaced during update"
-msgstr ""
+msgstr "更新期间无法修改文件"
 
 #: cps/admin.py:1721
 msgid "Failed to extract at least One LDAP User"
@@ -1343,7 +1344,7 @@ msgstr "接收书籍的Kindle邮箱地址"
 #: cps/templates/admin.html:17 cps/templates/layout.html:78
 #: cps/templates/user_table.html:143
 msgid "Admin"
-msgstr "管理权限"
+msgstr "管理页面酱"
 
 #: cps/templates/admin.html:18 cps/templates/login.html:13
 #: cps/templates/login.html:14 cps/templates/user_edit.html:23
@@ -3144,4 +3145,3 @@ msgstr "显示已读/未读选择"
 #: cps/templates/user_table.html:159
 msgid "Show random books"
 msgstr "显示随机书籍"
-
