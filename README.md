@@ -61,7 +61,7 @@ Ubuntu 的问题：
 *用户名:* admin\
 *密码:* admin123
 
-## Requirements
+## 环境需求
 
 python 3.5+
 
